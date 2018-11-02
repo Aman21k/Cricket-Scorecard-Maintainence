@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1540981924 source:f:\himanshudata\cpp codes\new\main.cpp
+	<iostream>
+	<windows.h>
+
