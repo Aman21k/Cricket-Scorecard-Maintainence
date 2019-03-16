@@ -1,2 +1,1 @@
-The project will display a batting scorecard and the bowling scorecard after the entries in all overs will be made...
-
+#Cricket Maintenance System
