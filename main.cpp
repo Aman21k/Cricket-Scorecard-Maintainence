@@ -13,6 +13,7 @@ class score
 };
 void score::bowling()
 {
+     extras=0,wd=0,lb=0,b=0,nb=0;
     int bow[10]={0},wick[11]={0},bno=0,wickets=0;
     cout<<"Welcome.... For how many overs would you like to play\n";
     cin>>ovr;
@@ -74,7 +75,7 @@ void score::bowling()
             }
        }
     }
-            extras=lb+nb+b;
+            extras=lb+nb+b+wd;
 
             cout<<"-----Thats end of the innings \n the scorecard is as follows\n";
             for(int i=bno;i>0;i--)
